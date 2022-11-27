@@ -1,5 +1,8 @@
 # custom_comparator
 
+![build](https://github.com/PiotrFLEURY/custom_comparator/actions/workflows/ci.yml/badge.svg?branch=main)
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
 Flutter example app to experiment custom golden test file comparator.
 
 ## Getting Started
