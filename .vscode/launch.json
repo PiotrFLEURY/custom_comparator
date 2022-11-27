@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "custom_comparator",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "custom_comparator (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "custom_comparator (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Tolerance",
+            "request": "launch",
+            "type": "dart",
+            "codeLens": {
+              "for": ["run-test", "run-test-file"]
+            },
+            "args": ["--dart-define=golden_tolerance=0.1"] // Specify 1% tolerance
+        },
+        {
+            "name": "Golden",
+            "request": "launch",
+            "type": "dart",
+            "codeLens": {
+              "for": ["run-test", "run-test-file"]
+            },
+            "args": ["--update-goldens"]
+        }
+    ]
+}
