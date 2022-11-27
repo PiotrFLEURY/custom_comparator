@@ -16,4 +16,4 @@ jobs:
       - name: Run all tests
         run: |
           flutter pub get
-          flutter test --dart-define=golden_tolerance=0.1
+          flutter test --dart-define=golden_tolerance=0.5
